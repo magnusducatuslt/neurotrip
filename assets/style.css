@@ -1,0 +1,313 @@
+@font-face {
+    font-family: Lato;
+    src: url("../Hexal/assets/fonts/lato/Lato-Regular.ttf");
+}
+@font-face {
+    font-family: MavenPro;
+    src: url("../Hexal/assets/fonts/Maven_Pro/MavenPro-Regular.ttf");
+}
+@font-face {
+    font-family: LatoBold;
+    src: url("../Hexal/assets/fonts/lato/Lato-Bold.ttf")
+}
+*{
+    margin: 0;
+}
+body,html {
+    font-size: 18px;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.visuallyhidden {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(ppx 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+}
+.subtitle span {
+    margin: 10px;
+}
+.image {
+    width: 200px;
+    position: relative;
+    left: 1px;
+    top: 1px;
+}
+.hexagon {
+    width: 180px;
+    height: 210px;
+    margin: 5px;
+    margin-left: 12px;
+    transform: rotate(120deg);
+    overflow: hidden;
+    visibility: hidden;
+    display: inline-block;
+}
+.hex-layer-1 {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    overflow: hidden;
+    visibility: hidden;
+}
+.hex-layer-2 {
+    width: 100%;
+    height: 100%;
+    background: #ccc3;
+    transform: rotate(-60deg);
+    visibility: visible;
+    background-image: url('../Hexal/assets/images/Layer41.jpg');
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.hex-layer-3 {
+    width: 100%;
+    height: 100%;
+    background: #ccc3;
+    transform: rotate(-60deg);
+    visibility: visible;
+    background-color: rgb(50,50,50);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+nav.navigation {
+    background-color: rgb(50,50,50);
+    height: 94px;
+}
+.menu li {
+    float: left;
+}
+ul.menu {
+    list-style-type: none;
+    margin-left: 467px;
+    padding: 0px;
+    overflow: hidden;
+}
+.menu li a:link, .menu li a:visited {
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 44px 18px;
+    font-family: 'Lato', sans-serif;
+}
+.menu li a:hover {
+    color:rgb(48,157,136);
+}
+.triangle1 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    -webkit-clip-path: polygon(40% 69%, 61% 63%, 40% 100%, 18% 63%);
+    clip-path: polygon(40% 69%, 61% 63%, 40% 100%, 18% 63%);
+}
+.triangle2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(50,50,50);
+    -webkit-clip-path: polygon(40% 70%, 59% 64.5%, 40% 98%, 20% 64.5%);
+    clip-path: polygon(40% 70%, 59% 64.5%, 40% 98%, 20% 64.5%);
+}
+.logo {
+    position: relative;
+    top: -15%;
+    left: 6%;
+}
+.forlogo {
+    width: 170px;
+}
+header {
+    height: 200px;
+}
+hr.borderl{
+    border: none;
+    color: rgba(116, 113, 113,0.5);
+    background-color: rgba(116, 113, 113,0.5);
+    height: 1.5px;
+    width:40%;
+    position:relative;
+    top: -5px;
+    left: 45px;
+}
+hr.borderr{
+    border: none;
+    color: rgba(116, 113, 113,0.5);
+    background-color: rgba(116, 113, 113,0.5);
+    height: 1.5px;
+    width:40%;
+    position:relative;
+    top: -7px;
+    left: 865px;
+}
+.row {
+    min-width: 1005px;
+}
+.row-translate .hexagon {
+    position: relative;
+    top: -55px;
+    right: 100px;
+}
+.row-native:not(:first-child) {
+    margin-top: -110px;
+}
+.hexagon-container {
+    zoom: 1.48;
+    margin-left: 109px;
+    margin-top: 13px;
+    max-width: 1000px;
+}
+hr.hz {
+    position: absolute;
+    height: 103px;
+    width: 1px;
+    border: none;
+    color: rgba(116, 113, 113,0.5);
+    background-color: rgba(116, 113, 113,0.5);
+}
+hr.underhex {
+    width: 94%;
+    height: 2px;
+    border: none;
+    color: rgba(116, 113, 113,0.5);
+    background-color:rgba(116, 113, 113,0.5);
+    position: relative;
+    left: 45px;
+    top: -8px;
+    margin-bottom: 10px;
+
+}
+.info {
+    background-color: rgb(46,179,152);
+    height: 510px;
+}
+.information {
+    width: 1300px;
+    margin-left: 10px;
+    padding: 20px;
+}
+.information .hexagon {
+    zoom: 1.48;
+}
+.information h2 {
+    color: #ffffff;
+    font-family: MavenPro;
+    font-size: 44px;
+}
+.information h3 {
+    color: rgb(11, 117, 96);
+    font-family: MavenPro;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.subtitle {
+    color: #ffffff;
+    font-family: Lato;
+    line-height: 1.8;
+}
+.photo {
+    float: left;
+    margin-left: 108px;
+    margin-top: 48px;
+    padding: 22px;
+
+}
+.text {
+    margin-top: 70px;
+}
+.snet li {
+    float: left;
+    display: inline-block;
+    zoom: 1.5;
+}
+.snet li:hover {
+    border-top:1px solid rgb(25, 134, 125);
+}
+.snet {
+    position: relative;
+    left: 647px;
+    top: 20px;
+}
+.in-touch-form {
+    background-color: rgb(50,50,50);
+    height: 830px;
+}
+fieldset {
+    border: none;
+}
+.full-form{
+    float: left;
+}
+legend {
+    color: #ffffff;
+    font-family: MavenPro;
+    font-size: 45px;
+}
+fieldset span {
+    color: #ffffff;
+    font-family: MavenPro;
+    font-size: 25px;
+}
+
+.field input{
+    background-color: rgb(69,69,69);
+    color: #ffffff;
+    font-family: Lato;
+    border: none;
+    font-size: 20px;
+    margin: 3px 20px 20px 0;
+    width: 845px;
+    height: 50px;
+    padding-left: 15px;
+
+}
+.field textarea {
+    background-color: rgb(69,69,69);
+    color: #ffffff;
+    font-family: Lato;
+    border: none;
+    font-size: 20px;
+    margin: 3px 20px 20px 0;
+    width: 830px;
+    padding: 15px;
+
+}
+.button-submit {
+    background-color: rgb(43,182,155);
+    color: #ffffff;
+    font-family: LatoBold;
+    position: relative;
+    float: right;
+    border: none;
+    padding: 15px;
+    width: 120px;
+    left: -30px;
+}
+.inf-near-form {
+    float: right;
+    width: 250px;
+    color: #ffffff;
+    font-family: Lato;
+    line-height: 1.8;
+    margin: 187px 195px 0 0;
+}
+.contacts a {
+    font-family: LatoBold;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.copy {
+    font-size: 16px;
+    font-family: MavenPro;
+    padding: 20px;
+    height: 50px;
+    background-color: rgb(34,34,34);
+    color: #535151
+}
